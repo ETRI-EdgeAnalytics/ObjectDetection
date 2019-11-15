@@ -7,3 +7,6 @@
 
 ## iOS 운영체제 상에서의 객체 인식 앱 예제
 ![2018-12-03 1 27 11](https://user-images.githubusercontent.com/45547720/49353342-8fd59500-f700-11e8-99eb-031507fd2f13.png)
+
+### Acknowledgement
+This work was supported by Institute for Information & Communications Technology Promotion (IITP) grant funded by the Korea government (MSIT) [No.2018-0-00278,Development of Big Data Edge Analytics SW Technology for Load Balancing and Active Timely Response].
