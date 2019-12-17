@@ -1,0 +1,702 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		690B77FF2180736D00E0F6C8 /* images in Resources */ = {isa = PBXBuildFile; fileRef = 690B77FE2180736D00E0F6C8 /* images */; };
+		690F113D21845B44008A8E0A /* ReportMobileNetViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690F113B21845B44008A8E0A /* ReportMobileNetViewTableViewCell.swift */; };
+		690F113F21845B69008A8E0A /* ReportInceptionViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690F113E21845B69008A8E0A /* ReportInceptionViewTableViewCell.swift */; };
+		6970C6FD2182F1D900D88912 /* SystemInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6970C6FC2182F1D900D88912 /* SystemInfo.swift */; };
+		6970C70121830CE500D88912 /* ReportViewContollerTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6970C70021830CE500D88912 /* ReportViewContollerTableViewController.swift */; };
+		6970C70321830DF900D88912 /* ReportCompareViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6970C70221830DF900D88912 /* ReportCompareViewTableViewCell.swift */; };
+		69A8D19E21645812005B48D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69A8D19D21645812005B48D9 /* AppDelegate.swift */; };
+		69A8D1A021645812005B48D9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69A8D19F21645812005B48D9 /* ViewController.swift */; };
+		69A8D1A321645812005B48D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69A8D1A121645812005B48D9 /* Main.storyboard */; };
+		69A8D1A521645813005B48D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69A8D1A421645813005B48D9 /* Assets.xcassets */; };
+		69A8D1A821645813005B48D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69A8D1A621645813005B48D9 /* LaunchScreen.storyboard */; };
+		69A8D1B321645813005B48D9 /* LightAIModelVerificationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69A8D1B221645813005B48D9 /* LightAIModelVerificationTests.swift */; };
+		69A8D1BE21645813005B48D9 /* LightAIModelVerificationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69A8D1BD21645813005B48D9 /* LightAIModelVerificationUITests.swift */; };
+		69A8D1CC21646225005B48D9 /* MobileNet.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 69A8D1CB21646224005B48D9 /* MobileNet.mlmodel */; };
+		69A8D1D0216468BB005B48D9 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69A8D1CF216468BB005B48D9 /* ResultViewController.swift */; };
+		69A8D1D22164849F005B48D9 /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 69A8D1D12164849F005B48D9 /* Inceptionv3.mlmodel */; };
+		D216535DA6AE3C18F769C952 /* Pods_LightAIModelVerification.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65E1E17D3731E8F0A13C8A0F /* Pods_LightAIModelVerification.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		69A8D1AF21645813005B48D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 69A8D19221645812005B48D9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 69A8D19921645812005B48D9;
+			remoteInfo = LightAIModelVerification;
+		};
+		69A8D1BA21645813005B48D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 69A8D19221645812005B48D9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 69A8D19921645812005B48D9;
+			remoteInfo = LightAIModelVerification;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		076972E96AF0E3774A21E2C2 /* Pods_LightAIModelVerificationUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LightAIModelVerificationUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		117321BA5E00B38DB82E115E /* Pods_LightAIModelVerificationTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LightAIModelVerificationTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		20AE171C789D42E9F9702160 /* Pods-LightAIModelVerification.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LightAIModelVerification.release.xcconfig"; path = "Pods/Target Support Files/Pods-LightAIModelVerification/Pods-LightAIModelVerification.release.xcconfig"; sourceTree = "<group>"; };
+		65E1E17D3731E8F0A13C8A0F /* Pods_LightAIModelVerification.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LightAIModelVerification.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		690B77FE2180736D00E0F6C8 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
+		690F113B21845B44008A8E0A /* ReportMobileNetViewTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReportMobileNetViewTableViewCell.swift; sourceTree = "<group>"; };
+		690F113E21845B69008A8E0A /* ReportInceptionViewTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReportInceptionViewTableViewCell.swift; sourceTree = "<group>"; };
+		6970C6FC2182F1D900D88912 /* SystemInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemInfo.swift; sourceTree = "<group>"; };
+		6970C70021830CE500D88912 /* ReportViewContollerTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportViewContollerTableViewController.swift; sourceTree = "<group>"; };
+		6970C70221830DF900D88912 /* ReportCompareViewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportCompareViewTableViewCell.swift; sourceTree = "<group>"; };
+		69A8D19A21645812005B48D9 /* Edge Analytics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Edge Analytics.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		69A8D19D21645812005B48D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		69A8D19F21645812005B48D9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		69A8D1A221645812005B48D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		69A8D1A421645813005B48D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		69A8D1A721645813005B48D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		69A8D1A921645813005B48D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69A8D1AE21645813005B48D9 /* LightAIModelVerificationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LightAIModelVerificationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		69A8D1B221645813005B48D9 /* LightAIModelVerificationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightAIModelVerificationTests.swift; sourceTree = "<group>"; };
+		69A8D1B421645813005B48D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69A8D1B921645813005B48D9 /* LightAIModelVerificationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LightAIModelVerificationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		69A8D1BD21645813005B48D9 /* LightAIModelVerificationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightAIModelVerificationUITests.swift; sourceTree = "<group>"; };
+		69A8D1BF21645813005B48D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69A8D1CB21646224005B48D9 /* MobileNet.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MobileNet.mlmodel; sourceTree = "<group>"; };
+		69A8D1CF216468BB005B48D9 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		69A8D1D12164849F005B48D9 /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Inceptionv3.mlmodel; sourceTree = "<group>"; };
+		E4B2E263011E408578AB20C0 /* Pods-LightAIModelVerification.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LightAIModelVerification.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LightAIModelVerification/Pods-LightAIModelVerification.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		69A8D19721645812005B48D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D216535DA6AE3C18F769C952 /* Pods_LightAIModelVerification.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69A8D1AB21645813005B48D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69A8D1B621645813005B48D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0BCAC275A906743290D9F103 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				65E1E17D3731E8F0A13C8A0F /* Pods_LightAIModelVerification.framework */,
+				117321BA5E00B38DB82E115E /* Pods_LightAIModelVerificationTests.framework */,
+				076972E96AF0E3774A21E2C2 /* Pods_LightAIModelVerificationUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		69A8D19121645812005B48D9 = {
+			isa = PBXGroup;
+			children = (
+				69A8D19C21645812005B48D9 /* LightAIModelVerification */,
+				69A8D1B121645813005B48D9 /* LightAIModelVerificationTests */,
+				69A8D1BC21645813005B48D9 /* LightAIModelVerificationUITests */,
+				69A8D19B21645812005B48D9 /* Products */,
+				95DAE0F00A42EDC937A45053 /* Pods */,
+				0BCAC275A906743290D9F103 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		69A8D19B21645812005B48D9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				69A8D19A21645812005B48D9 /* Edge Analytics.app */,
+				69A8D1AE21645813005B48D9 /* LightAIModelVerificationTests.xctest */,
+				69A8D1B921645813005B48D9 /* LightAIModelVerificationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		69A8D19C21645812005B48D9 /* LightAIModelVerification */ = {
+			isa = PBXGroup;
+			children = (
+				690B77FE2180736D00E0F6C8 /* images */,
+				69A8D1D12164849F005B48D9 /* Inceptionv3.mlmodel */,
+				69A8D1CB21646224005B48D9 /* MobileNet.mlmodel */,
+				69A8D19D21645812005B48D9 /* AppDelegate.swift */,
+				69A8D19F21645812005B48D9 /* ViewController.swift */,
+				69A8D1A121645812005B48D9 /* Main.storyboard */,
+				6970C70221830DF900D88912 /* ReportCompareViewTableViewCell.swift */,
+				690F113B21845B44008A8E0A /* ReportMobileNetViewTableViewCell.swift */,
+				690F113E21845B69008A8E0A /* ReportInceptionViewTableViewCell.swift */,
+				6970C70021830CE500D88912 /* ReportViewContollerTableViewController.swift */,
+				69A8D1A421645813005B48D9 /* Assets.xcassets */,
+				69A8D1A621645813005B48D9 /* LaunchScreen.storyboard */,
+				69A8D1A921645813005B48D9 /* Info.plist */,
+				69A8D1CF216468BB005B48D9 /* ResultViewController.swift */,
+				6970C6FC2182F1D900D88912 /* SystemInfo.swift */,
+			);
+			path = LightAIModelVerification;
+			sourceTree = "<group>";
+		};
+		69A8D1B121645813005B48D9 /* LightAIModelVerificationTests */ = {
+			isa = PBXGroup;
+			children = (
+				69A8D1B221645813005B48D9 /* LightAIModelVerificationTests.swift */,
+				69A8D1B421645813005B48D9 /* Info.plist */,
+			);
+			path = LightAIModelVerificationTests;
+			sourceTree = "<group>";
+		};
+		69A8D1BC21645813005B48D9 /* LightAIModelVerificationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				69A8D1BD21645813005B48D9 /* LightAIModelVerificationUITests.swift */,
+				69A8D1BF21645813005B48D9 /* Info.plist */,
+			);
+			path = LightAIModelVerificationUITests;
+			sourceTree = "<group>";
+		};
+		95DAE0F00A42EDC937A45053 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E4B2E263011E408578AB20C0 /* Pods-LightAIModelVerification.debug.xcconfig */,
+				20AE171C789D42E9F9702160 /* Pods-LightAIModelVerification.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		69A8D19921645812005B48D9 /* LightAIModelVerification */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69A8D1C221645813005B48D9 /* Build configuration list for PBXNativeTarget "LightAIModelVerification" */;
+			buildPhases = (
+				4AC800E22E5CE08C56095D8F /* [CP] Check Pods Manifest.lock */,
+				69A8D19621645812005B48D9 /* Sources */,
+				69A8D19721645812005B48D9 /* Frameworks */,
+				69A8D19821645812005B48D9 /* Resources */,
+				F64CEF6F02D05426242A9440 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LightAIModelVerification;
+			productName = LightAIModelVerification;
+			productReference = 69A8D19A21645812005B48D9 /* Edge Analytics.app */;
+			productType = "com.apple.product-type.application";
+		};
+		69A8D1AD21645813005B48D9 /* LightAIModelVerificationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69A8D1C521645813005B48D9 /* Build configuration list for PBXNativeTarget "LightAIModelVerificationTests" */;
+			buildPhases = (
+				69A8D1AA21645813005B48D9 /* Sources */,
+				69A8D1AB21645813005B48D9 /* Frameworks */,
+				69A8D1AC21645813005B48D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				69A8D1B021645813005B48D9 /* PBXTargetDependency */,
+			);
+			name = LightAIModelVerificationTests;
+			productName = LightAIModelVerificationTests;
+			productReference = 69A8D1AE21645813005B48D9 /* LightAIModelVerificationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		69A8D1B821645813005B48D9 /* LightAIModelVerificationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69A8D1C821645813005B48D9 /* Build configuration list for PBXNativeTarget "LightAIModelVerificationUITests" */;
+			buildPhases = (
+				69A8D1B521645813005B48D9 /* Sources */,
+				69A8D1B621645813005B48D9 /* Frameworks */,
+				69A8D1B721645813005B48D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				69A8D1BB21645813005B48D9 /* PBXTargetDependency */,
+			);
+			name = LightAIModelVerificationUITests;
+			productName = LightAIModelVerificationUITests;
+			productReference = 69A8D1B921645813005B48D9 /* LightAIModelVerificationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		69A8D19221645812005B48D9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = leeint;
+				TargetAttributes = {
+					69A8D19921645812005B48D9 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					69A8D1AD21645813005B48D9 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 69A8D19921645812005B48D9;
+					};
+					69A8D1B821645813005B48D9 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 69A8D19921645812005B48D9;
+					};
+				};
+			};
+			buildConfigurationList = 69A8D19521645812005B48D9 /* Build configuration list for PBXProject "LightAIModelVerification" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 69A8D19121645812005B48D9;
+			productRefGroup = 69A8D19B21645812005B48D9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				69A8D19921645812005B48D9 /* LightAIModelVerification */,
+				69A8D1AD21645813005B48D9 /* LightAIModelVerificationTests */,
+				69A8D1B821645813005B48D9 /* LightAIModelVerificationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		69A8D19821645812005B48D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				690B77FF2180736D00E0F6C8 /* images in Resources */,
+				69A8D1A821645813005B48D9 /* LaunchScreen.storyboard in Resources */,
+				69A8D1A521645813005B48D9 /* Assets.xcassets in Resources */,
+				69A8D1A321645812005B48D9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69A8D1AC21645813005B48D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69A8D1B721645813005B48D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4AC800E22E5CE08C56095D8F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LightAIModelVerification-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F64CEF6F02D05426242A9440 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-LightAIModelVerification/Pods-LightAIModelVerification-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Charts.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LightAIModelVerification/Pods-LightAIModelVerification-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		69A8D19621645812005B48D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				690F113F21845B69008A8E0A /* ReportInceptionViewTableViewCell.swift in Sources */,
+				69A8D1D22164849F005B48D9 /* Inceptionv3.mlmodel in Sources */,
+				690F113D21845B44008A8E0A /* ReportMobileNetViewTableViewCell.swift in Sources */,
+				69A8D1A021645812005B48D9 /* ViewController.swift in Sources */,
+				69A8D19E21645812005B48D9 /* AppDelegate.swift in Sources */,
+				69A8D1CC21646225005B48D9 /* MobileNet.mlmodel in Sources */,
+				6970C6FD2182F1D900D88912 /* SystemInfo.swift in Sources */,
+				6970C70321830DF900D88912 /* ReportCompareViewTableViewCell.swift in Sources */,
+				69A8D1D0216468BB005B48D9 /* ResultViewController.swift in Sources */,
+				6970C70121830CE500D88912 /* ReportViewContollerTableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69A8D1AA21645813005B48D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69A8D1B321645813005B48D9 /* LightAIModelVerificationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69A8D1B521645813005B48D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69A8D1BE21645813005B48D9 /* LightAIModelVerificationUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		69A8D1B021645813005B48D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 69A8D19921645812005B48D9 /* LightAIModelVerification */;
+			targetProxy = 69A8D1AF21645813005B48D9 /* PBXContainerItemProxy */;
+		};
+		69A8D1BB21645813005B48D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 69A8D19921645812005B48D9 /* LightAIModelVerification */;
+			targetProxy = 69A8D1BA21645813005B48D9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		69A8D1A121645812005B48D9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				69A8D1A221645812005B48D9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		69A8D1A621645813005B48D9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				69A8D1A721645813005B48D9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		69A8D1C021645813005B48D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		69A8D1C121645813005B48D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		69A8D1C321645813005B48D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4B2E263011E408578AB20C0 /* Pods-LightAIModelVerification.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GGV5WWVER9;
+				INFOPLIST_FILE = LightAIModelVerification/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = doinglab.LightAIModelVerification;
+				PRODUCT_NAME = "Edge Analytics";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		69A8D1C421645813005B48D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20AE171C789D42E9F9702160 /* Pods-LightAIModelVerification.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GGV5WWVER9;
+				INFOPLIST_FILE = LightAIModelVerification/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = doinglab.LightAIModelVerification;
+				PRODUCT_NAME = "Edge Analytics";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		69A8D1C621645813005B48D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LightAIModelVerificationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = doinglab.LightAIModelVerificationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LightAIModelVerification.app/LightAIModelVerification";
+			};
+			name = Debug;
+		};
+		69A8D1C721645813005B48D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LightAIModelVerificationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = doinglab.LightAIModelVerificationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LightAIModelVerification.app/LightAIModelVerification";
+			};
+			name = Release;
+		};
+		69A8D1C921645813005B48D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LightAIModelVerificationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = doinglab.LightAIModelVerificationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LightAIModelVerification;
+			};
+			name = Debug;
+		};
+		69A8D1CA21645813005B48D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LightAIModelVerificationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = doinglab.LightAIModelVerificationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LightAIModelVerification;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		69A8D19521645812005B48D9 /* Build configuration list for PBXProject "LightAIModelVerification" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69A8D1C021645813005B48D9 /* Debug */,
+				69A8D1C121645813005B48D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		69A8D1C221645813005B48D9 /* Build configuration list for PBXNativeTarget "LightAIModelVerification" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69A8D1C321645813005B48D9 /* Debug */,
+				69A8D1C421645813005B48D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		69A8D1C521645813005B48D9 /* Build configuration list for PBXNativeTarget "LightAIModelVerificationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69A8D1C621645813005B48D9 /* Debug */,
+				69A8D1C721645813005B48D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		69A8D1C821645813005B48D9 /* Build configuration list for PBXNativeTarget "LightAIModelVerificationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69A8D1C921645813005B48D9 /* Debug */,
+				69A8D1CA21645813005B48D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 69A8D19221645812005B48D9 /* Project object */;
+}
