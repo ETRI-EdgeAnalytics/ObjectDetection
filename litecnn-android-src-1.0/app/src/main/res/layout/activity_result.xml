@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ResultActivity">
+    
+    <RelativeLayout
+        android:id="@+id/btn_back"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:background="#eeeeee">
+
+        <net.steamcrafted.materialiconlib.MaterialIconView xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_gravity="center_vertical"
+            android:scaleType="center"
+            app:materialIcon="arrow_left"
+            app:materialIconColor="#000000"
+            app:materialIconSize="24dp"
+            android:layout_margin="4dp"
+            android:layout_centerVertical="true"/>\
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Performance"
+            android:textSize="20dp"
+            android:layout_centerInParent="true"/>
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/iv_resultImage"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_below="@id/btn_back"
+        android:scaleType="fitCenter" />
+
+    <LinearLayout
+        android:padding="16dp"
+        android:layout_below="@id/iv_resultImage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_performance"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Performance 0.12s"
+            android:textSize="20dp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.1dp"
+            android:background="#eeeeee"
+            android:layout_margin="8dp"/>
+
+        <TextView
+            android:layout_marginLeft="12dp"
+            android:id="@+id/tv_result1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1.Computer (20%)"
+            android:textSize="18dp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.1dp"
+            android:background="#eeeeee"
+            android:layout_margin="8dp"/>
+
+        <TextView
+            android:layout_marginLeft="12dp"
+            android:id="@+id/tv_result2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1.Computer (20%)"
+            android:textSize="18dp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.1dp"
+            android:background="#eeeeee"
+            android:layout_margin="8dp"/>
+
+        <TextView
+            android:layout_marginLeft="12dp"
+            android:id="@+id/tv_result3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1.Computer (20%)"
+            android:textSize="18dp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.1dp"
+            android:background="#eeeeee"
+            android:layout_margin="8dp"/>
+
+        <TextView
+            android:layout_marginLeft="12dp"
+            android:id="@+id/tv_result4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1.Computer (20%)"
+            android:textSize="18dp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.1dp"
+            android:background="#eeeeee"
+            android:layout_margin="8dp"/>
+
+        <TextView
+            android:layout_marginLeft="12dp"
+            android:id="@+id/tv_result5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1.Computer (20%)"
+            android:textSize="18dp"/>
+
+    </LinearLayout>
+</RelativeLayout>
